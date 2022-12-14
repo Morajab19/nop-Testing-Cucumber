@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="179.603">
+<testcase classname="user can manage his wishlist" name="user add item to wishlist" time="21.743">
+<system-out><![CDATA[Given Initiate wishlist.....................................................passed
+When user scrolls to Apple MacBook Pro 13-inch and clicks Add to wishlist Button.passed
+And user click on add to wishlist...........................................passed
+Then item is added to wishlist..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login to the website" name="User enter valid email and valid password" time="14.872">
+<system-out><![CDATA[Given user navigate to the login page.......................................passed
+When enter email "moRajab@gmail.com"........................................passed
+And enter password as "Asdfgh"..............................................passed
+And click on Login Button...................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login to the website" name="User enters invalid non existing email and password" time="13.46">
+<system-out><![CDATA[Given user navigate to the login page.......................................passed
+When enter email "moRajgcgcab@gmail.com"....................................passed
+And enter password as "Asdfgh"..............................................passed
+And click on Login Button...................................................passed
+Then invalid login error message appears....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login to the website" name="user enters email with invalid format" time="13.489">
+<system-out><![CDATA[Given user navigate to the login page.......................................passed
+When enter email "moRajabgcom"..............................................passed
+And enter password as "Asdfgh"..............................................passed
+And click on Login Button...................................................passed
+Then wrong email error message appears......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login to the website" name="user want to recover a forgotten password" time="14.38">
+<system-out><![CDATA[Given user navigate to the login page.......................................passed
+Given user clicks on forget password button.................................passed
+When enter email as "moRajab@gmail.com".....................................passed
+And click on Recover Button.................................................passed
+Then Email with instructions has been sent to user..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can filter products by color" name="_2" time="16.838">
+<system-out><![CDATA[Given user navigate to shoes category page..................................passed
+When user select red color..................................................passed
+Then the red shoes are displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user manage the comparelist" name="user add two items to compare list" time="17.272">
+<system-out><![CDATA[Given user initiate comparelist.............................................passed
+When user open home page and navigates to Cell phones category..............passed
+And click on add to compare list button for HTC One M8 Android L 5.0 Lollipop and HTC One Mini Blue.passed
+And click on open compare list notification.................................passed
+Then the "HTC One M8 Android L 5.0 Lollipop" and "HTC One Mini Blue" are in the compare list.passed
+]]></system-out>
+</testcase>
+<testcase classname="user can manage his cart by adding, updating or deleting items" name="user add product to his/her cart" time="18.615">
+<system-out><![CDATA[Given Initiate manage cart..................................................passed
+When user scrolls to Apple MacBook Pro 13-inch and clicks Add to cart Button.passed
+And enter quantity of "2" and click on ADD TO CART Button and open cart.....passed
+Then the product "Apple MacBook Pro 13-inch" is added successfully to the cart.passed
+]]></system-out>
+</testcase>
+<testcase classname="user can manage his cart by adding, updating or deleting items" name="user updates the quantity of added item" time="14.842">
+<system-out><![CDATA[Given Initiate manage cart..................................................passed
+When user opens the cart....................................................passed
+And type the updated quantity "4" and click on update cart..................passed
+Then the product quantity is updated to "4".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can manage his cart by adding, updating or deleting items" name="user deletes a product from cart" time="14.477">
+<system-out><![CDATA[Given Initiate manage cart..................................................passed
+When user opens the cart....................................................passed
+And click on remove product.................................................passed
+Then product is deleted from the cart.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user can manage his cart by adding, updating or deleting items" name="user add existing product to his/her cart" time="18.596">
+<system-out><![CDATA[Given Initiate manage cart..................................................passed
+When user scrolls to Apple MacBook Pro 13-inch and clicks Add to cart Button.passed
+And enter quantity of "10" and click on ADD TO CART Button and open cart....passed
+Then the product "Apple MacBook Pro 13-inch" is added successfully to the cart.passed
+]]></system-out>
+</testcase>
+</testsuite>
