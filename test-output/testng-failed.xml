@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="NOP_AutomationTesting(failed)">
     <classes>
-      <class name="runners.Test_Runner2">
+      <class name="runners.Test_Runner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="5"/>
+          <include name="runScenario" invocation-numbers="3 9"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- runners.Test_Runner2 -->
+      </class> <!-- runners.Test_Runner -->
     </classes>
   </test> <!-- NOP_AutomationTesting(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

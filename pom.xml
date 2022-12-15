@@ -76,7 +76,7 @@
 <!--    <groupId>org.jetbrains</groupId>-->
 <!--    <artifactId>annotations</artifactId>-->
 <!--    <version>RELEASE</version>-->
-<!--    <scope>compile</scope>-->
+<!--    <scope>test</scope>-->
 <!--  </dependency>-->
     <dependency>
         <groupId>junit</groupId>
@@ -84,11 +84,12 @@
         <version>4.13.2</version>
         <scope>test</scope>
     </dependency>
-<!--  <dependency>-->
-<!--    <groupId>io.cucumber</groupId>-->
-<!--    <artifactId>cucumber-junit</artifactId>-->
-<!--    <version>7.9.0</version>-->
-<!--    <scope>test</scope>-->
-<!--  </dependency>-->
+
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.8.1</version>
+    <scope>test</scope>
+  </dependency>
 </dependencies>
 </project>

@@ -1,4 +1,4 @@
-@orderReggresion
+@Regression
 Feature: Create order
   Background:
     Given initiate checkout
